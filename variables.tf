@@ -3,12 +3,6 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "region" {
-  description = "AWS region for the bucket"
-  type        = string
-  default     = "us-east-1"
-}
-
 variable "acl" {
   description = "Canned ACL for the bucket"
   type        = string
